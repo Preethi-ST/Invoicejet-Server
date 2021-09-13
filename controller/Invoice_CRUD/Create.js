@@ -39,7 +39,7 @@ module.exports = Create = async (req,res,next) => {
 
         <p style="color : rgb(35, 23, 196)">Invoice Number is ${newInvoice.invoiceNo}</p>
 
-        <p style="color : rgb(35, 23, 196)">Kindly <a href = '${process.env.FE_URL}/Invoicejet/login'>Login</a> to our website to see the invoice details.</p>
+        <p style="color : rgb(35, 23, 196)">Kindly <a href = '${process.env.FE_URL}'>Login</a> to our website to see the invoice details.</p>
 
         <p>If you are logging-in for the first time, then our employees will share the necessary credentials with you over slack. 
         If not, you can login with the credentials you have </p>
